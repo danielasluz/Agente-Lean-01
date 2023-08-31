@@ -16,10 +16,8 @@ function exibirMensagem() {
     botaoLink.style.display = "none"; 
     document.getElementById("mensagem").style.display = "block";
   
-    // Limpa o conteúdo do elemento #terminal no início
     elementoTerminal.textContent = "";
   
-    // Chama a função escreverMensagem após o botão ser ocultado
     escreverMensagem();
   }
   
