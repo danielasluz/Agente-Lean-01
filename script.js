@@ -2,7 +2,7 @@ function exibirMensagem() {
     var elementoTerminal = document.getElementById("terminal");
     var mensagem = "Parabéns! Você foi selecionado para ser Agente Lean e participar da Operação Kaizen: Licença Para Melhorar. Seu treinamento começa agora. Prepare-se para aprimorar nossos processos e elevar a Unicred a novos patamares de eficiência. Esteja alerta, o treinamento incluirá simulações e análise de processos. Como Agente Lean, você terá um papel fundamental na seleção e implementação de melhorias. Seu comprometimento nos levará à vitória! Sua missão: Excelência Operacional. A contagem regressiva começou. Aguarde novos comandos. Com dedicação à eficiência, Escritório de Processos.";
     var indiceCaractere = 0;
-    var velocidadeDigitacao = 50;
+    var velocidadeDigitacao = 30;
   
     function escreverMensagem() {
       if (indiceCaractere < mensagem.length) {
