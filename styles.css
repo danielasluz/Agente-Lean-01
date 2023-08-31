@@ -1,5 +1,3 @@
-
-
 body {
     background-color: #052338;
     color: white;
@@ -7,12 +5,54 @@ body {
     padding: 20px;
 }
 
+#interface-ultrassecreta {
+    background-color: #000;
+    border: 2px solid #3fe097;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+#header-ultrassecreto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #052338;
+    border: 2px solid #3fe097;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}
+
+.relogio-digital {
+    color: #3fe097;
+    font-size: 24px;
+}
+
+.status-conexao {
+    color: #3fe097;
+    font-size: 24px;
+}
+
 #terminal {
     border: 2px solid #3fe097;
-    padding: 10px;
-     font-size: 20px;
+    padding: 20px;
+    font-size: 20px;
     min-height: 200px;
     overflow: auto;
+}
+
+.texto-verde {
+    color: #3fe097;
+}
+
+.texto-amarelo {
+    color: #ffdb58;
+}
+
+.texto-vermelho {
+    color: #ff6b6b;
 }
 
 .botao-link {
@@ -20,28 +60,47 @@ body {
     padding: 20px 30px;
     font-size: 20px;
     margin-top: 20px;
-    background-color: #3fe097; 
-    color: #052338; 
-    text-decoration: none; 
-    border: none; 
-    cursor: pointer; 
-    border-radius: 5px; 
+    background-color: #3fe097;
+    color: #052338;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.botao-link:hover {
+    background-color: #4dffbc;
 }
 
 .botao-teams {
     display: inline-block;
     padding: 10px 20px;
     margin-top: 20px;
-    background-color: #3fe097; 
-    color: #052338; 
-    text-decoration: none; 
-    border: none; 
-    cursor: pointer; 
-    border-radius: 5px; 
+    background-color: #3fe097;
+    color: #052338;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
     font-size: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.botao-teams:hover {
+    background-color: #4dffbc;
 }
 
 #mensagem {
-  padding: 10px;
-  font-size: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.mensagem-ultrassecreta {
+    color: #3fe097;
+    font-size: 24px;
+}
+
+.texto-azul {
+    color: #7ce0f9;
 }

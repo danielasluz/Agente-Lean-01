@@ -1,22 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Agente Lean</title>
-  <link rel="stylesheet" href="styles.css"> 
+  <title>Programa Lean</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <div id="terminal"> -- Programa Lean --</div>
-  <a href="#" class="botao-link" onclick="exibirMensagem()">Atenção! Você tem uma nova mensagem, clique para exibir.</a>
+  <div id="interface-ultrassecreta">
+    <div id="header-ultrassecreto">
+      <span class="relogio-digital">12:30</span>
+      <span class="status-conexao">Conectado</span>
+    </div>
+    <div id="terminal">
+      <span class="texto-verde">Iniciando sistema...</span><br>
+      <span class="texto-amarelo">Carregando dados confidenciais...</span><br>
+      <span class="texto-vermelho">Acesso restrito. Autorização necessária.</span>
+    </div>
+    <a href="#" class="botao-link" onclick="exibirMensagem()">Você tem uma nova mensagem, clique para exibir.</a>
 
-  <div id="mensagem" style="display: none;">
-  </div>
-  
-  <div id="redirecionamento" style="display: none;">
-    <p>Você está sendo infiltrado na Equipe Lean do Teams...</p>
+    <div id="mensagem" style="display: none;">
+      <p class="mensagem-ultrassecreta">Missão Confidencial:</p>
+      <p class="texto-azul">Infiltrar-se na equipe Lean.</p>
+      <p class="texto-azul">Você aceita a missão?</p>
+      <button class="botao-teams" onclick="aceitarMissao()">Sim</button>
+      <button class="botao-teams" onclick="aceitarMissao()">Com Certeza</button>
+    </div>
+
+    <div id="redirecionamento" style="display: none;">
+      <p>...Você está sendo redirecionado para a equipe Lean no Microsoft Teams...</p>
+    </div>
   </div>
 
-  <script src="script.js"></script> 
+  <script src="script.js"></script>
 </body>
+
 </html>
