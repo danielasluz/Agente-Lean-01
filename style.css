@@ -1,0 +1,45 @@
+body {
+    background-color: #052338;
+    color: white;
+    font-family: monospace;
+    padding: 20px;
+}
+
+#terminal {
+    border: 2px solid #3fe097;
+    padding: 10px;
+     font-size: 20px;
+    min-height: 200px;
+    overflow: auto;
+}
+
+.botao-link {
+    display: inline-block;
+    padding: 20px 30px;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #3fe097; 
+    color: #052338; 
+    text-decoration: none; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 5px; 
+}
+
+.botao-teams {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #3fe097; 
+    color: #052338; 
+    text-decoration: none; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    font-size: 20px;
+}
+
+#mensagem {
+  padding: 10px;
+  font-size: 20px;
+}
